@@ -1,15 +1,9 @@
-import SearchBar from "./components/molecules/SearchBar";
+import Header from "./components/molecules/Header";
 
 function App() {
   return (
-    <div className="px-4">
-      {/* HEADER
-      <header>
-        <h4>Pokēdex</h4>
-        <p>Search for any Pokēmon that exists on the planet</p>
-      </header>
- */}
-      <SearchBar />
+    <div className="px-6 py-6">
+      <Header />
     </div>
   );
 }

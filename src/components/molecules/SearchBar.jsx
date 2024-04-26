@@ -4,7 +4,7 @@ import FilterBox from "../atoms/FilterBox";
 
 export default function SearchBar() {
   return (
-    <div className="flex p-2 space-x-2">
+    <div className="flex py-2 space-x-2">
       <SearchBox />
       <FilterBox />
     </div>

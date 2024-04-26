@@ -1,9 +1,13 @@
+import Body from "./components/Body";
 import Header from "./components/molecules/Header";
 
 function App() {
   return (
-    <div className="px-6 py-6">
+    <div className="p-10">
+      
       <Header />
+      <Body />
+
     </div>
   );
 }
